@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+}
+
+#full {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  transition: 1s;
+}
+
+#quote-box {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Karla', sans-serif;
+  padding: 30px 20px 10px 30px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#text-quote {
+  display: flex;
+  flex-direction: row;
+}
+
+#author {
+  width: 100%;
+  text-align: right;
+  padding-bottom: 20px;
+}
+
+#new-quote {
+  font-family: 'Karla', sans-serif;
+  font-size: 20px;
+}
+
+.button {
+  transition-duration: 0.4s;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  color: black;
+}
+
+.centered {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
